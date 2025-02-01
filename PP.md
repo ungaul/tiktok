@@ -1,40 +1,30 @@
-Privacy Policy
+## 🔐 Privacy Policy
 
-1. Introduction
+### 1. Introduction
+We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your personal data.
 
-We value your privacy and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our services.
+### 2. Information We Collect
+We may collect:
+- **Personal Data:** API keys, email addresses, or other data you provide.
+- **Usage Data:** Logs of video uploads and API requests.
 
-2. Information We Collect
-
-We may collect the following types of information:
-Personal Information: Name, email address, and other identifying details you provide.
-Usage Data: Information on how you interact with our services.
-
-3. How We Use Your Information
-
+### 3. How We Use Your Data
 We use your data to:
-Provide and maintain our services.
-Improve and personalize your experience.
-Comply with legal obligations.
+- Authenticate and perform API operations.
+- Improve our service and troubleshoot issues.
 
-4. Sharing Your Information
+### 4. Sharing Your Information
+We do not share your data with third parties except when required by law or to protect our rights.
 
-We do not share your personal data with third parties except:
-When required by law.
-To protect our rights and safety.
+### 5. Data Security
+We implement reasonable measures to protect your data from unauthorized access or disclosure.
 
-5. Data Security
+### 6. Your Rights
+You have the right to access, update, or delete your data. Contact us to exercise these rights.
 
-We implement appropriate security measures to protect your data from unauthorized access, disclosure, alteration, or destruction.
+### 7. Changes to This Policy
+We may update this Privacy Policy periodically. Continued use of our services constitutes acceptance of the updated Policy.
 
-6. Your Rights
+### 8. Contact Us
+For any privacy concerns, contact us.
 
-You have the right to access, update, or delete your personal data. You may also object to data processing or request data portability where applicable.
-
-7. Changes to This Policy
-
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page.
-
-8. Contact Us
-
-If you have any questions about this Privacy Policy, please contact us.

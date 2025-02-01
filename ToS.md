@@ -1,37 +1,30 @@
-Terms of Service
+## 📜 Terms of Service
 
-1. Acceptance of Terms
+### 1. Acceptance of Terms
+By using our service, you agree to comply with these Terms of Service. If you do not agree, please refrain from using our services.
 
-By using our services, you agree to be bound by these Terms of Service. If you do not agree, please refrain from using our services.
+### 2. Services Provided
+Our application automates video uploads to TikTok. The service is provided "as-is" without any warranties of performance or availability.
 
-2. Services Provided
-
-We offer daily memes. The services are provided on an "as-is" basis without warranties of any kind.
-
-3. User Responsibilities
-
+### 3. User Responsibilities
 Users agree to:
-Provide accurate and up-to-date information.
-Use the services lawfully and ethically.
+- Provide accurate API credentials and information.
+- Ensure that uploaded content complies with TikTok's community guidelines.
+- Use the service in a lawful manner.
 
-4. Prohibited Activities
-
+### 4. Prohibited Activities
 Users must not:
-Engage in unlawful, harmful, or abusive behavior.
-Access or tamper with service infrastructure without authorization.
+- Upload illegal, offensive, or copyrighted content without permission.
+- Abuse or reverse-engineer the service.
 
-5. Limitation of Liability
+### 5. Limitation of Liability
+We are not liable for any direct or indirect damages resulting from the use of our services.
 
-We are not liable for any indirect, incidental, or consequential damages arising from your use of our services.
+### 6. Termination
+We reserve the right to terminate access to the service at any time for any violation of these Terms.
 
-6. Termination
+### 7. Changes to Terms
+We may update these Terms of Service from time to time. Continued use of the service constitutes acceptance of the updated Terms.
 
-We reserve the right to terminate or suspend your access to our services at any time for breach of these Terms.
-
-7. Changes to Terms
-
-We may modify these Terms of Service at any time. Continued use of our services constitutes your acceptance of the updated Terms.
-
-1. Contact Us
-
-For any questions about these Terms of Service, please contact us.
+### 8. Contact Us
+For any questions, contact us.
