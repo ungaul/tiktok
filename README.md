@@ -1,85 +1,43 @@
-## Project Overview
-This project automates the daily upload of a video named `Weewee Cat.mp4` to TikTok at 17:00 using TikTok's API. It leverages Python for scheduling and API integration.
+# 🐱 TikTok Video Uploader
 
-## Features
-- Automated daily video uploads.
-- Integration with TikTok API.
-- Secure handling of client keys and secrets.
+This project automates the process of uploading a video named 'Weewee Cat.mp4' to TikTok every day at 17:00 UTC using GitHub Actions and TikTok's API.
 
-## Prerequisites
-To run this project, ensure you have the following installed:
+## 📂 Project Structure
+- `.github/workflows/tiktok_video_upload.yml`: Defines the GitHub Action for running the script.
+- `upload_script.py`: Python script for uploading the video.
+- `Weewee Cat.mp4`: The video file to be uploaded.
 
-- Python 3.x
-- TikTok API client library (if applicable)
-- Required Python packages (listed in `requirements.txt`)
+## ⚙️ Setup Instructions
 
-## Installation
-1. Clone this repository:
-   ```sh
+1. **Clone the repository:**
+   ```bash
    git clone [repository-url]
    ```
 
-2. Navigate to the project directory:
-   ```sh
-   cd [project-directory]
+2. **Add Secrets:**
+   In your GitHub repository, navigate to **Settings > Secrets and variables > Actions** and add:
+   - `CLIENT_KEY`: Your TikTok API client key.
+   - `CLIENT_SECRET`: Your TikTok API client secret.
+
+3. **Modify the video file:**
+   Replace `Weewee Cat.mp4` with your desired video file, or modify the filename in the script.
+
+4. **Run locally (optional):**
+   ```bash
+   python upload_script.py
    ```
 
-3. Install the required dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
+## 🕒 Automation Schedule
+The video upload is automated via GitHub Actions to run daily at 17:00 UTC. You can modify the schedule in the `cron` section of the workflow file.
 
-## Configuration
-1. Create a `.env` file in the project root and add your TikTok API credentials:
-   ```env
-   CLIENT_KEY=awz0gbd2c4krpzv3
-   CLIENT_SECRET=mDTuSzBWzSXPpBquW8nNl7vQl99OAtdA
-   ```
+## 🚀 Features
+- Automatic video uploads to TikTok.
+- Customizable video file and API configuration.
+- GitHub Actions integration for scheduled execution.
 
-2. Ensure the video file `Weewee Cat.mp4` is placed in the appropriate directory.
+## 🛠️ Dependencies
+- Python 3.x
+- Requests library (install with `pip install requests`)
 
-## Usage
-Run the script to schedule daily uploads:
-```sh
-python upload_script.py
-```
-
-The script will automatically upload the video at 17:00 every day.
-
-## File Structure
-```
-.
-├── README.md
-├── upload_script.py
-├── requirements.txt
-├── .env
-└── Weewee Cat.mp4
-```
-
-## API Documentation
-Refer to TikTok's official API documentation for detailed information on available endpoints and parameters.
-
-## Contributing
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```sh
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them:
-   ```sh
-   git commit -m "Add your message here"
-   ```
-4. Push to your branch:
-   ```sh
-   git push origin feature/your-feature-name
-   ```
-5. Open a pull request.
-
-## License
-This project is licensed under the [Insert License Name] License. See `LICENSE` for more information.
-
-## Contact
-For support or inquiries, please contact [Insert Contact Information].
-
+## 📢 Note
+Ensure that TikTok API access and permissions are correctly configured for successful video uploads.
