@@ -1,0 +1,32 @@
+name: TikTok Video Uploader
+
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+
+jobs:
+  upload-video:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run the TikTok video upload script
+      env:
+        CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
+        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+        VIDEO_FILENAME: Weewee Cat.mp4
+      run: |
+        python -c """
